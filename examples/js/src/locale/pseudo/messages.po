@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2026-07-14 10:07+0400\n"
+"POT-Creation-Date: 2026-07-14 08:12+0400\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
-"Language: en\n"
+"Language: pseudo\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: \n"
@@ -16,82 +16,123 @@ msgstr ""
 #. js-lingui-explicit-id
 #: src/ids.js:22
 msgid "Foo bar as id"
-msgstr "Foo bar as id"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:90
+#~ msgid "Hello {firstName} {lastName}, {0}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:89
+#~ msgid "nice to meet you"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:92
+#: src/index.js:93
+#~ msgid "Hello {name}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:97
+#~ msgid "Hello21 {name}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:98
+#~ msgid "Hello22 {name}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:97
+#~ msgid "Hello2 {name}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:98
+#~ msgid "Hello3 {name}!"
+#~ msgstr ""
+
+#. js-lingui-explicit-id
+#: src/index.js:94
+#~ msgid "nice to meet you!"
+#~ msgstr ""
 
 #. Title of example
 #. js-lingui-explicit-id
 #: src/ids.js:27
 msgid "static"
-msgstr "@lingui/core example"
+msgstr ""
 
 #. Title of example
 #: src/messages.js:28
 msgid "@lingui/core example"
-msgstr "@lingui/core example"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/ids.js:60
 msgid "lazy"
-msgstr "Do you want to proceed? {yes}/{no}"
+msgstr ""
 
 #: src/messages.js:59
 msgid "Do you want to proceed? {yes}/{no}"
-msgstr "Do you want to proceed? {yes}/{no}"
+msgstr ""
 
 #: src/ids.js:23
 msgid "Foo bar as message"
-msgstr "Foo bar as message"
+msgstr ""
 
 #: src/native-functions-test.js:8
 msgid "Hello {firstName} {lastName}, {0}!"
-msgstr "Hello {firstName} {lastName}, {0}!"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/ids.js:37
 msgid "variables"
-msgstr "Hello {name}"
+msgstr ""
 
 #: src/messages.js:39
 msgid "Hello {name}"
-msgstr "Hello {name}"
+msgstr ""
 
 #: src/native-functions-test.js:10
 #: src/native-functions-test.js:11
 #: src/native-functions-test.js:12
 msgid "Hello {name}!"
-msgstr "Hello {name}!"
+msgstr ""
 
 #: src/native-functions-test.js:7
 msgid "nice to meet you"
-msgstr "nice to meet you"
+msgstr ""
 
 #. Disagreement
 #. js-lingui-explicit-id
 #: src/ids.js:15
 msgid "common.no"
-msgstr "No"
+msgstr ""
 
 #. Disagreement
 #: src/messages.js:17
 msgid "No"
-msgstr "No"
+msgstr ""
 
 #. js-lingui-explicit-id
 #: src/ids.js:46
 msgid "plural"
-msgstr "There are {value, plural, one {# bottle} other {# bottles}} hanging on the wall"
+msgstr ""
 
 #: src/messages.js:46
 msgid "There are {value, plural, one {# bottle} other {# bottles}} hanging on the wall"
-msgstr "There are {value, plural, one {# bottle} other {# bottles}} hanging on the wall"
+msgstr ""
 
 #. Agreement
 #. js-lingui-explicit-id
 #: src/ids.js:10
 msgid "common.yes"
-msgstr "Yes"
+msgstr ""
 
 #. Agreement
 #: src/messages.js:13
 msgid "Yes"
-msgstr "Yes"
+msgstr ""

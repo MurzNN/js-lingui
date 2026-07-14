@@ -13,9 +13,14 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
-#. Title of example
-#: src/ids.js:24
 #. js-lingui-explicit-id
+#: src/ids.js:22
+msgid "Foo bar as id"
+msgstr ""
+
+#. Title of example
+#. js-lingui-explicit-id
+#: src/ids.js:27
 msgid "static"
 msgstr "Ukázka @lingui/core"
 
@@ -24,8 +29,8 @@ msgstr "Ukázka @lingui/core"
 msgid "@lingui/core example"
 msgstr "Ukázka @lingui/core"
 
-#: src/ids.js:57
 #. js-lingui-explicit-id
+#: src/ids.js:60
 msgid "lazy"
 msgstr "Chcete pokračovat? {yes}/{no}"
 
@@ -33,8 +38,16 @@ msgstr "Chcete pokračovat? {yes}/{no}"
 msgid "Do you want to proceed? {yes}/{no}"
 msgstr "Chcete pokračovat? {yes}/{no}"
 
-#: src/ids.js:34
+#: src/ids.js:23
+msgid "Foo bar as message"
+msgstr ""
+
+#: src/native-functions-test.js:8
+msgid "Hello {firstName} {lastName}, {0}!"
+msgstr "Ahoj {firstName} {lastName}, {0}!"
+
 #. js-lingui-explicit-id
+#: src/ids.js:37
 msgid "variables"
 msgstr "Ahoj {name}"
 
@@ -42,9 +55,19 @@ msgstr "Ahoj {name}"
 msgid "Hello {name}"
 msgstr "Ahoj {name}"
 
+#: src/native-functions-test.js:10
+#: src/native-functions-test.js:11
+#: src/native-functions-test.js:12
+msgid "Hello {name}!"
+msgstr "Ahoj {name}!"
+
+#: src/native-functions-test.js:7
+msgid "nice to meet you"
+msgstr "výborně se mít na vás!"
+
 #. Disagreement
-#: src/ids.js:15
 #. js-lingui-explicit-id
+#: src/ids.js:15
 msgid "common.no"
 msgstr "Ne"
 
@@ -53,8 +76,8 @@ msgstr "Ne"
 msgid "No"
 msgstr "Ne"
 
-#: src/ids.js:43
 #. js-lingui-explicit-id
+#: src/ids.js:46
 msgid "plural"
 msgstr "{value, plural, one {# láhev} few {# láhve} other {# láhví}} visí na stěně"
 
@@ -63,8 +86,8 @@ msgid "There are {value, plural, one {# bottle} other {# bottles}} hanging on th
 msgstr "{value, plural, one {# láhev} few {# láhve} other {# láhví}} visí na stěně"
 
 #. Agreement
-#: src/ids.js:10
 #. js-lingui-explicit-id
+#: src/ids.js:10
 msgid "common.yes"
 msgstr "Ano"
 
