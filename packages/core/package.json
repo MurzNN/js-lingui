@@ -44,6 +44,10 @@
       "types": "./macro/index.d.mts",
       "default": "./macro/index.mjs"
     },
+    "./runtime-macro": {
+      "types": "./dist/runtime-macro.d.mts",
+      "default": "./dist/runtime-macro.mjs"
+    },
     "./package.json": "./package.json"
   },
   "files": [

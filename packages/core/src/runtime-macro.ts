@@ -1,5 +1,5 @@
 import { generateMessageId } from "@lingui/message-utils/generateMessageId"
-import type { MessageDescriptor } from "./i18n"
+import { I18n, I18nProps, MessageDescriptor } from "./i18n"
 
 const RUNTIME_MACRO_BRAND = Symbol.for("lingui.runtime.marker")
 
@@ -10,6 +10,13 @@ interface MacroMarker {
   readonly value: unknown
   readonly formattedOptions: string
   readonly nestedValues: Record<string, unknown>
+}
+
+interface I18nWithTranslateString extends I18n {
+  translateString: (
+    literalsOrDescriptor: TemplateStringsArray | Record<string, unknown>,
+    ...expressions: unknown[]
+  ) => string
 }
 
 function isMacroMarker(x: unknown): x is MacroMarker {
@@ -241,6 +248,17 @@ export function selectOrdinal(
   options: Record<string, unknown>,
 ): MacroMarker & MessageDescriptor {
   return buildChoiceMarker("selectordinal", value, options)
+}
+
+export function setupI18nWithTransString(
+  params: I18nProps = {},
+): I18nWithTranslateString {
+  const i18n = new I18n(params) as I18nWithTranslateString
+  i18n.translateString = (...msgArgs: unknown[]) => {
+    const msgObj = msg(...(msgArgs as [TemplateStringsArray, ...unknown[]]))
+    return i18n.t(msgObj)
+  }
+  return i18n
 }
 
 export const defineMessage = msg
